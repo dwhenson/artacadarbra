@@ -7,8 +7,37 @@
     <link rel="stylesheet" href="/scss/main.scss" />
     <title>Document</title>
   </head>
-  <body>
-    <h1>Test</h1>
-    <p>Regular text</p>
+  <body class="align-content flow-region">
+    <header class="flow-content padding-block-start-space-xl">
+      <nav class="nav">
+        <div>
+          <h1 class="visually-hidden">Artacadabra</h1>
+          <div><img src="/assets/logo.png" alt="" /></div>
+        </div>
+        <form action="">
+          <label class="visually-hidden" for="video-search"
+            >Search Videos</label
+          >
+          <input
+            type="search"
+            id="video-search"
+            name="video-search"
+            placeholder="Search Videos"
+          />
+          <button>Search</button>
+        </form>
+      </nav>
+      <p>INTRODUCTION HERE</p>
+    </header>
+    <main id="main">
+      <section class="grid">
+        <div class="box video"></div>
+        <div class="box video"></div>
+        <div class="box video"></div>
+        <div class="box video"></div>
+        <div class="box video"></div>
+        <div class="box video"></div>
+      </section>
+    </main>
   </body>
 </html>

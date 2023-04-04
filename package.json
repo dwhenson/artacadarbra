@@ -13,7 +13,6 @@
     "vite": "^4.2.1",
     "vite-plugin-purgecss": "^0.2.12",
     "stylelint": "15.4.0",
-    "stylelint-config-prettier": "9.0.5",
     "stylelint-config-recommended-scss": "9.0.1",
     "stylelint-order": "6.0.3",
     "stylelint-scss": "4.6.0",
